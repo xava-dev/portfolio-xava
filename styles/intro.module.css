@@ -1,0 +1,100 @@
+/* Set the animation, color, size and hide the text */
+.intro {
+    animation: intro 6s ease-out 1s;
+    font-weight: 400;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Set the animation & hide the logo */
+.logo {
+    animation: logo 9s ease-out 9s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Scale the logo down and maintain it centered */
+@keyframes logo {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+/* Set the font, lean the board, position it */
+#board {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    transform: perspective(300px) rotateX(11deg);
+    transform-origin: 50% 100%;
+    text-align: justify;
+    position: absolute;
+    font-weight: bold;
+    overflow: hidden;
+    height: 160em;
+    width: 50%;
+    bottom: 0;
+    left: 25%;
+}
+
+#board:after {
+    position: absolute;
+    content: ' ';
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/* Set the scrolling animation and position it */
+#content {
+    animation: scroll 60s linear 16s;
+    position: absolute;
+    top: 110%;
+}
+
+@keyframes scroll {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -170%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #board {
+        transform: perspective(1100px) rotateX(20deg);
+        height: 80em;
+        width: 90%;
+        left: 5%;
+    }
+}
