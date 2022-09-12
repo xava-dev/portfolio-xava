@@ -112,7 +112,7 @@ const Projects = () => {
               </ul>
               <div className="w-full mt-4 text-gray-500 text-2xl flex flex-row justify-center md:justify-start">
                 <a
-                  href="https://github.com/jordyvanraalte/cropper-frontend/"
+                  href="https://github.com/xava-dev/kickstarter-web3"
                   target="_blank"
                   className="hover:text-white mr-2"
                   rel="noreferrer"
@@ -120,7 +120,7 @@ const Projects = () => {
                   <TbBrandGithub width={30} height={30} />
                 </a>
                 <a
-                  href="https://similarscent.com/en"
+                  href="https://kickstarter-web3.vercel.app"
                   target="_blank"
                   className="hover:text-white"
                   rel="noreferrer"
