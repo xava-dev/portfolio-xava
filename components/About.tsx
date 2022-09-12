@@ -22,7 +22,7 @@ const About = () => {
             >
               <div className="justify-center w-full md:w-full pl-4 pr-3 md:px-0 md:mt-12 xl:mt-0">
                 <Image
-                  src="/neill_khalifa.jpg"
+                  src="/about/neill.jpg"
                   width={1400}
                   height={1830}
                   alt="Neill"
