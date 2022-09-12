@@ -38,7 +38,7 @@ const Projects = () => {
                   automatically optimize images in bulk. Optify automatically
                   crops out whitespace, compresses without losing quality and
                   converts to .WEBP to increase page loading speed. The other
-                  co-founder is the backend developer.
+                  co-founder is the backend developer. Optify will launch in Sept, 2022.
                 </p>
               </div>
               <ul className="font-light text-[10px] md:text-xs text-gray-500 flex justify-center md:justify-end w-fit flex-wrap mr-0 ml-auto uppercase">
@@ -48,23 +48,8 @@ const Projects = () => {
                 <li className="ml-2">#TAILWINDCSS</li>
                 <li className="ml-2">#COMMERCIAL</li>
               </ul>
-              <div className="w-full mt-4 text-gray-500 text-2xl flex justify-center md:justify-end flex-row">
-                <a
-                  href="https://github.com/jordyvanraalte/cropper-frontend/"
-                  target="_blank"
-                  className="hover:text-white mr-2"
-                  rel="noreferrer"
-                >
-                  <TbBrandGithub width={30} height={30} />
-                </a>
-                <a
-                  href="https://optify.dev"
-                  target="_blank"
-                  className="hover:text-white"
-                  rel="noreferrer"
-                >
-                  <TbExternalLink width={30} height={30} />
-                </a>
+              <div className="uppercase mt-4 text-white w-fit mr-0 ml-auto font-medium text-[10px] px-4 py-1 border rounded-full">
+                Coming soon
               </div>
             </div>
           </li>
