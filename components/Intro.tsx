@@ -76,7 +76,7 @@ const Intro = () => {
       <section className="relative w-screen h-screen">
         <Image
           alt="xava star wars logo"
-          src="/xava-intro.png"
+          src="/intro/xava-intro.png"
           layout={"fill"}
           objectFit={"contain"}
           className={styles.logo}
