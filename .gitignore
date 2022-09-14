@@ -38,3 +38,6 @@ next-env.d.ts
 # displaced files
 *.mov
 *.psd
+.gitattributes
+.idea
+package-lock.json
