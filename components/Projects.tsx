@@ -190,7 +190,133 @@ const Projects = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
           >
-            <li className="w-full md:w-11/12 mt-3 md:mt-10 relative md:flex flex-row items-center snap-start h-fit w-fit ml-2 md:ml-20 py-10 px-6 md:px-0 bg-red-600/10 rounded-2xl backdrop-blur-lg">
+            <li className="w-full md:w-11/12 relative mt-3 md:mt-10 md:flex flex-row items-center snap-start h-fit w-fit ml-2 md:ml-20 py-10 px-6 md:px-0 bg-[#E50914]/10 rounded-2xl backdrop-blur-lg">
+              <div className="w-full mx-auto md:w-1/2 md:ml-10 md:mr-auto">
+                <Image
+                  src="/projects/netflix-mockup.png"
+                  width={520}
+                  height={320}
+                  alt="Netflix clone"
+                />
+              </div>
+              <div className="text-white w-full md:max-w-xl text-center md:text-right md:ml-auto md:mr-20 md:w-1/2">
+                <span className="uppercase tracking-widest font-medium text-[10px] md:text-xs bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+                  Full Stack Developer
+                </span>
+                <h3 className="text-3xl md:text-5xl mt-1 font-black mr-0 ml-auto">
+                  Netflix Clone
+                </h3>
+                <div className="relative my-4 text-white max-w-xl z-20 md:text-right">
+                  <p className="font-medium text-xs md:text-sm">
+                    Full Stack Enterprise level Next JS application. Includes
+                    passwordless login authentication, Hasura Database, GraphQL
+                    & Youtube API. Note: project is still in development
+                  </p>
+                </div>
+                <ul className="font-light text-[10px] md:text-xs text-gray-500 flex justify-center md:justify-end w-fit flex-wrap mr-0 ml-auto uppercase">
+                  <li>#NEXT.JS</li>
+                  <li className="ml-2">#REACT</li>
+                  <li className="ml-2">#TYPESCRIPT</li>
+                  <li className="ml-2">#TAILWINDCSS</li>
+                  <li className="ml-2">#PASSWORDLESS</li>
+                  <li className="ml-2">#AUTHENTICATION</li>
+                  <li className="ml-2">#GRAPHQL</li>
+                  <li className="ml-2">#PERSONAL</li>
+                </ul>
+                <div className="w-full mt-4 text-gray-500 text-2xl flex justify-end flex-row justify-center md:justify-end">
+                  <a
+                    href="https://github.com/xava-dev/netflix-clone"
+                    target="_blank"
+                    className="hover:text-white mr-2"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub width={30} height={30} />
+                  </a>
+                  <a
+                    href="https://netflix-clone-xava-dev.vercel.app/login"
+                    target="_blank"
+                    className="hover:text-white"
+                    rel="noreferrer"
+                  >
+                    <TbExternalLink width={30} height={30} />
+                  </a>
+                </div>
+              </div>
+            </li>
+          </motion.div>
+          <motion.div
+            initial={{ scale: 0.7, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: 0.2 }}
+          >
+            <li className="w-full md:w-11/12 relative md:flex flex-row mt-3 md:mt-10 items-center snap-start h-fit w-fit ml-2 md:ml-20 md:mr-10 py-10 px-6 bg-black/50 rounded-2xl backdrop-blur-lg">
+              <div className="w-full mx-auto text-white text-center md:text-left max-w-xl md:mr-auto md:ml-20 md:w-1/2">
+                <div className="block md:hidden w-full mx-auto mb-3">
+                  <Image
+                    src="/projects/space-invaders-mockup.png"
+                    width={520}
+                    height={320}
+                    alt="Space Invaders"
+                  />
+                </div>
+                <span className="uppercase tracking-widest font-medium text-[10px] md:text-xs bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+                  Full Stack Developer
+                </span>
+                <h3 className="text-3xl md:text-5xl mt-1 font-black">
+                  Space Invaders
+                </h3>
+                <div className="relative my-4 text-white max-w-xl z-20">
+                  <p className="font-medium text-xs md:text-sm">
+                    A popular game from 1978, made with JavaScript. Dodge
+                    bullets and defeat the invaders before they reach you. Feel
+                    free to play. Sound on for the full experience.
+                  </p>
+                </div>
+                <ul className="font-light text-[10px] md:text-xs text-gray-500 flex w-fit flex-wrap uppercase justify-center md:justify-start">
+                  <li className="mr-2">#GAME</li>
+                  <li className="mr-2">#JAVASCRIPT</li>
+                  <li className="mr-2">#HTML</li>
+                  <li className="mr-2">#CANVAS</li>
+                  <li>#PERSONAL</li>
+                </ul>
+                <div className="w-full mt-4 text-gray-500 text-2xl flex flex-row justify-center md:justify-start">
+                  <a
+                    href="https://github.com/xava-dev/space-invaders"
+                    target="_blank"
+                    className="hover:text-white mr-2"
+                    rel="noreferrer"
+                  >
+                    <TbBrandGithub width={30} height={30} />
+                  </a>
+                  <a
+                    href="https://xava-dev.github.io/space-invaders/"
+                    target="_blank"
+                    className="hover:text-white"
+                    rel="noreferrer"
+                  >
+                    <TbExternalLink width={30} height={30} />
+                  </a>
+                </div>
+              </div>
+              <div className="hidden md:block w-1/2 text-right mr-10">
+                <Image
+                  src="/projects/space-invaders-mockup.png"
+                  width={520}
+                  height={320}
+                  alt="Space Invaders"
+                  className="rounded-xl"
+                />
+              </div>
+            </li>
+          </motion.div>
+          <motion.div
+            initial={{ scale: 0.7, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4 }}
+          >
+            <li className="w-full md:w-11/12 mt-3 md:mt-10 relative md:flex flex-row items-center snap-start h-fit w-fit ml-2 md:ml-20 py-10 px-6 md:px-0 bg-[#c14527]/10 rounded-2xl backdrop-blur-lg">
               <div className="w-full mx-auto md:w-1/2 md:ml-10 md:mr-auto">
                 <Image
                   src="/projects/similarscent-mockup-devices.png"
