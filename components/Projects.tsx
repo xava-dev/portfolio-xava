@@ -86,7 +86,7 @@ const Projects = () => {
                     crops out whitespace, compresses without losing quality and
                     converts to .WEBP to increase page loading speed. The other
                     co-founder is the backend developer. Optify will launch in
-                    Sept, 2022.
+                    Oct, 2022.
                   </p>
                 </div>
                 <ul className="font-light text-[10px] md:text-xs text-gray-500 flex justify-center md:justify-end w-fit flex-wrap mr-0 ml-auto uppercase">
